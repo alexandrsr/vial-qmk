@@ -6,19 +6,19 @@
 #define BOOTMAGIC_LITE_COLUMN_RIGHT 5
 
 /* communication between sides */
-#define USE_SERIAL
+/*#define USE_SERIAL
 #define SERIAL_USE_MULTI_TRANSACTION
 #define SOFT_SERIAL_PIN GP1
 
-#define PAL_USE_CALLBACKS TRUE
+#define PAL_USE_CALLBACKS TRUE*/
 
 /* Serial settings */
-/*#define SERIAL_USART_FULL_DUPLEX
+#define SERIAL_USART_FULL_DUPLEX
 #define SERIAL_USART_TX_PIN GP0
 #define SERIAL_USART_RX_PIN GP1
-#define SPLIT_HAND_PIN      GP29
+//#define SPLIT_HAND_PIN      GP29
 #define SPLIT_LAYER_STATE_ENABLE
-#define SPLIT_WATCHDOG_ENABLE*/
+#define SPLIT_WATCHDOG_ENABLE
 
 #ifdef OLED_ENABLE
 #    define OLED_DISPLAY_128X32
