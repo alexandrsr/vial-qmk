@@ -5,7 +5,7 @@
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "matrix_pins": {
-        "cols": ["GP9", "GP10", "GP11", "GP12", "GP13", "GP14"],
+        "cols": ["GP21", "GP23", "GP20", "GP22", "GP26", "GP27"],
         "rows": ["GP4", "GP5", "GP6", "GP7", "GP8"]
     },
     "processor": "RP2040",
@@ -17,14 +17,14 @@
     },
     "encoder": {
         "rotary": [
-            {"pin_a": "GP27", "pin_b": "GP26"}
+            {"pin_a": "GP29", "pin_b": "GP28"}
         ]
     },
     "rgb_matrix": {
         "driver": "ws2812"
     },
     "ws2812": {
-        "pin": "GP28",
+        "pin": "GP0",
         "driver": "vendor"
     },
     "layouts": {
