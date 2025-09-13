@@ -33,4 +33,4 @@ jobs:
           prerelease: true
           title: 'Latest Build'
           files: |
-            tweetydabird_lotus58_promicro_vial.hex
+            ergohaven_fw/**/tweetydabird_lotus58_promicro_vial.hex
