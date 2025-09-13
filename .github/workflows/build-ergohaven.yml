@@ -31,5 +31,5 @@ jobs:
       name: Upload
       id: upload
       with:
-        path: "*.hex"
+        path: "tweetydabird_lotus58_promicro_vial.hex"
         name: ergohaven_fw
