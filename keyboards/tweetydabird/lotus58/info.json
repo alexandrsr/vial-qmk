@@ -5,15 +5,15 @@
     "bootloader_instructions": "Short marked pads on PCB, or hold top-outer key when plugging in each hand.",
     "diode_direction": "COL2ROW",
     "features": {
-        "bootmagic": true,
+        "bootmagic": false,
         "command": false,
         "console": false,
         "encoder": true,
         "extrakey": true,
-        "mousekey": true,
+        "mousekey": false,
         "nkro": true,
         "oled": true,
-        "rgblight": true,
+        "rgblight": false,
         "tri_layer": true
     },
     "rgblight": {
