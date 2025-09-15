@@ -13,12 +13,11 @@
         "mousekey": true,
         "nkro": true,
         "oled": true,
-        "rgblight": true,
+        "rgblight": false,
         "tri_layer": false, 
         "tap_dance": true, 
         "combos": false,
         "key_override": false, 
-        "qmk_settings": true, 
         "magic": false
     },
     "rgblight": {
