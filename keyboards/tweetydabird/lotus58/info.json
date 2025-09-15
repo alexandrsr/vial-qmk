@@ -13,7 +13,7 @@
         "mousekey": true,
         "nkro": true,
         "oled": true,
-        "rgblight": false,
+        "rgblight": true,
         "tri_layer": false, 
         "tap_dance": true, 
         "combos": false,
