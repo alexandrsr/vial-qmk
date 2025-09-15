@@ -10,11 +10,16 @@
         "console": false,
         "encoder": true,
         "extrakey": true,
-        "mousekey": false,
+        "mousekey": true,
         "nkro": true,
         "oled": true,
         "rgblight": false,
-        "tri_layer": true
+        "tri_layer": false, 
+        "tap_dance": true, 
+        "combos": false,
+        "key_override": false, 
+        "qmk_settings": true, 
+        "magic": false
     },
     "rgblight": {
         "default": {
