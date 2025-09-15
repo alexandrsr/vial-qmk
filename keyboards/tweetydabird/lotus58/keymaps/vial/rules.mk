@@ -9,7 +9,7 @@ ENCODER_MAP_ENABLE = yes
 # Reduce size on atmega32u4
 ifeq ($(strip $(CONVERT_TO)), )
     TAP_DANCE_ENABLE = yes
-    QMK_SETTINGS = yes
+    QMK_SETTINGS = no
     KEY_OVERRIDE_ENABLE = no
     COMBO_ENABLE = no
     
