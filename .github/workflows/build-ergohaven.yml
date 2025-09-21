@@ -47,7 +47,7 @@ jobs:
       name: Upload
       id: upload
       with:
-        path: "*.uf2"
+        path: "*.*"
         name: ${{ env.OUTPUT }}
 
   merge:
