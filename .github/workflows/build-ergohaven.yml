@@ -25,11 +25,12 @@ jobs:
       id: build
       run: |
         git config --global --add safe.directory $(pwd)
+        qmk compile -kb ergohaven/sophie/rev1 -km default
         qmk compile -kb tweetydabird/lotus58/promicro -km vial
 
     - uses: actions/upload-artifact@v4
       name: Upload
       id: upload
       with:
-        path: ".build/tweetydabird_lotus58_promicro_vial.hex"
+        path: "*.*"
         name: ergohaven_fw
