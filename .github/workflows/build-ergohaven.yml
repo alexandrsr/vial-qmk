@@ -18,7 +18,7 @@ jobs:
       matrix:
         include:
           - { kb: ergohaven/sophie/rev1 -km default}
-		  - { -kb tweetydabird/lotus58/promicro -km vial}
+		      - { kb: tweetydabird/lotus58/promicro -km vial}
 
     steps:
     - name: (actions) Checkout Vial repo
