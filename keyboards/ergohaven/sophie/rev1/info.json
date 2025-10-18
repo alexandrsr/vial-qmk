@@ -17,7 +17,12 @@
     },
     "encoder": {
         "rotary": [
-            {"pin_a": "GP29", "pin_b": "GP28"}
+            {"pin_a": "GP29", "pin_b": "GP28", "resolution": 8}
+        ]
+    },
+    "encoder_right": {
+        "rotary": [
+            {"pin_a": "GP29", "pin_b": "GP28", "resolution": 4}
         ]
     },
     "rgb_matrix": {
